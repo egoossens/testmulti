@@ -21,3 +21,23 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+## Gradle
+.gradle
+gradle-app.setting
+build/
+
+## Android Studio, IntelliJ, Android
+android/libs/armeabi/
+android/libs/armeabi-v7a/
+android/libs/x86/
+android/gen/
+.idea/
+*.ipr
+*.iws
+*.iml
+*.so
+out/
+
+## OS-specific, others
+.DS_Store
