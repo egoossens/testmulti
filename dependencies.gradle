@@ -1,0 +1,17 @@
+ext {
+    // Backend
+    ktor_version                = "0.9.3"
+    app_engine_sdk_version      = "1.9.59"
+    slf4j_version               = "1.7.25"
+
+    dep = [
+            kotlin_stdlib_common       : "org.jetbrains.kotlin:kotlin-stdlib-common:$kotlin_version",
+            kotlin_stdlib_jre8         : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version",
+
+            // Backend
+            ktor_core                  : "io.ktor:ktor-server-core:$ktor_version",
+            ktor_servlet               : "io.ktor:ktor-server-servlet:$ktor_version",
+            slf4j                      : "org.slf4j:slf4j-jdk14:$slf4j_version",
+            app_engine_sdk             : "com.google.appengine:appengine-java-sdk:$app_engine_sdk_version",
+    ]
+}

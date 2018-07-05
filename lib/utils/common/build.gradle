@@ -1,0 +1,5 @@
+apply plugin: 'kotlin-platform-common'
+
+dependencies {
+    implementation dep.kotlin_stdlib_common
+}

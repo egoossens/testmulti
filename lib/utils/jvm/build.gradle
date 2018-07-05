@@ -1,0 +1,9 @@
+apply plugin: 'kotlin-platform-jvm'
+
+dependencies {
+    expectedBy project(':lib:utils:common')
+
+    implementation dep.kotlin_stdlib_jre8
+}
+
+apply from: '../../../jvmconfig.gradle'

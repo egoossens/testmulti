@@ -1,0 +1,1 @@
+/Users/egoossens/Apps/testmulti/lib/utils/jvm/build/classes/kotlin/main/com/tastyelectrons/autopilog/JvmLogger$Companion.class:/Users/egoossens/Apps/testmulti/lib/utils/jvm/build/classes/kotlin/main/com/tastyelectrons/autopilog/JvmLogger.class:/Users/egoossens/Apps/testmulti/lib/utils/jvm/build/classes/kotlin/main/com/tastyelectrons/autopilog/LoggerKt.class

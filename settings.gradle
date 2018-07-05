@@ -1,0 +1,9 @@
+rootProject.name = 'autopilog'
+
+include 'backend'
+
+include 'lib:dummy:common'
+include 'lib:dummy:jvm'
+
+include 'lib:utils:common'
+include 'lib:utils:jvm'

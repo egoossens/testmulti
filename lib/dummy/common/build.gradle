@@ -1,0 +1,9 @@
+apply plugin: 'kotlin-platform-common'
+
+group 'com.tastyelectrons'
+
+dependencies {
+    implementation dep.kotlin_stdlib_common
+}
+
+//apply from: '../../../jvmconfig.gradle'

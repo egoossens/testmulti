@@ -1,0 +1,11 @@
+apply plugin: 'kotlin-platform-jvm'
+
+group 'com.tastyelectrons'
+
+dependencies {
+    expectedBy project(':lib:dummy:common')
+
+    implementation dep.kotlin_stdlib_jre8
+}
+
+apply from: '../../../jvmconfig.gradle'

@@ -1,0 +1,24 @@
+allprojects {
+    buildscript {
+        ext.kotlin_version = '1.2.50'
+
+        repositories {
+            mavenCentral()
+        }
+        dependencies {
+            classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+            classpath "com.google.appengine:gradle-appengine-plugin:1.9.59"
+        }
+
+    }
+    repositories {
+        mavenCentral()
+        maven { url "https://kotlin.bintray.com/kotlinx" }
+        maven { url "https://dl.bintray.com/kotlin/ktor" }
+    }
+}
+
+group 'com.tastyelectrons'
+version '0.1'
+
+apply from: 'dependencies.gradle'

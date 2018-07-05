@@ -1,0 +1,27 @@
+apply plugin: 'kotlin'
+apply plugin: 'war'
+apply plugin: 'appengine'
+
+webAppDirName = 'webapp'
+
+appengine {
+    downloadSdk = true
+}
+
+sourceSets {
+    main.kotlin.srcDirs = [ 'src/main/kotlin' ]
+}
+
+dependencies {
+    implementation project(':lib:dummy:jvm')
+    implementation project(':lib:utils:jvm')
+
+    implementation dep.ktor_core
+    implementation dep.ktor_servlet
+
+    implementation dep.slf4j
+
+    appengineSdk dep.app_engine_sdk
+}
+
+apply from: '../jvmconfig.gradle'
